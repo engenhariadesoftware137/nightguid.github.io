@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-page.css">
+</head>
+<body class="contato">
+    <div class="container">
+        <h1 class="h1contato">Entre em Contato</h1>
+        <p>Estamos aqui para ajudar. Entre em contato conosco caso tenha alguma dúvida ou sugestão:</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> NightGuide@Gmail.com</p>
+            <p><strong>Telefone:</strong> (22) 99734-2894</p>
+            <p><strong>Endereço:</strong> Endereço, Saquarema, RJ, Brasil</p>
+        </div>
+        <form class="contact-form" action="/enviar_contato" method="post">
+            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+            <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>NightGuide ©2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>

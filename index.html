@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>NightGuide</title>
+</head>
+<body class="header-bg">
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal-btn" class="close-modal-btn">&times;</span>
+            <img id="modal-img" class="modal-img" alt="Evento">
+            <h2 id="modal-title" class="modal-title"></h2>
+            <p id="modal-description" class="modal-description"></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="highlights-container">
+            <button id="prevHighlightBtn">&lt;</button>
+            <div class="highlights">
+                <aside class="destaques">
+                    <div class="destaques-content">
+                        <!-- Destaques dinâmicos serão adicionados aqui com JavaScript -->
+                    </div>
+                </aside>
+            </div>
+            <button id="nextHighlightBtn">&gt;</button>
+        </div>
+        <header >
+            <h1 class="h1index">NightGuide</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="Eventos.html" target="_blank">Eventos</a></li>
+                    <li><a href="Destaques.html" target="_blank">Destaques</a></li>
+                    <li><a href="Contato.html" target="_blank">Contato</a></li>
+                    <li><a href="Ajuda.html" target="_blank">Ajuda</a></li>
+                    <li><a href="About.html" target="_blank">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section class="eventos">
+                <div class="eventos-container">
+                    <div class="evento">
+                        <img src="img/01.png" alt="Evento 1" class="evento-img" data-title="Carnaval 2023" data-description="Venha curtir o Carnaval da vila 2023.">
+                    </div>
+                    <div class="evento">
+                        <img src="img/02.png" alt="Evento 2" class="evento-img" data-title="Ze Neto e Cristiano" data-description="Venha curtir esse show inesquecível.">
+                    </div>
+                    <div class="evento">
+                        <img src="img/03.png" alt="Evento 3" class="evento-img" data-title="Moto Rock" data-description="Motorock Saquarema 2023.">
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+    </div>
+
+    <footer>
+        <p>NightGuide ©2023. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
